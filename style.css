@@ -1,0 +1,175 @@
+.banner {
+  background: url("kantor\ lurah\ .jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  
+}
+
+
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #ffffff;
+  background-color: #dc3545;
+}
+.content-wrapper {
+  margin-top: -50px; 
+}
+
+.container-fluid.Alur.Pelayanan {
+  padding-top: -20px; 
+}
+
+.profile-img {
+  width: 100px; /* Set the width of the image */
+  height: 100px; /* Set the height of the image */
+  object-fit: cover; /* Ensures the image is properly cropped to fit */
+}
+
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f9fd;
+    color: #333;
+  }
+
+  .bg-light {
+    background-color: #e0f7fa; /* Latar belakang berwarna biru muda */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .display-3 {
+    color: #0277bd; /* Biru yang lebih gelap untuk heading */
+    font-weight: bold;
+  }
+
+  .card {
+    border-radius: 15px;
+    border: 1px solid #80deea; /* Border halus berwarna biru muda */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px); /* Efek hover untuk menaikkan kartu */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Bayangan yang lebih menarik saat hover */
+  }
+
+  .card-img-top {
+    border-radius: 15px 15px 0 0; /* Membuat gambar memiliki sudut melengkung di atas */
+    object-fit: cover;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .card-title {
+    color: #0277bd; /* Biru gelap untuk judul */
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    color: #555;
+  }
+
+  .btn-danger {
+    background-color: #ff5722; /* Warna oranye untuk tombol */
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .btn-danger:hover {
+    background-color: #d84315;
+    transform: scale(1.05); /* Efek zoom saat hover pada tombol */
+  }
+
+  .row {
+    margin-top: 30px;
+  }
+
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+</style>
+
+
+.container {
+  gap: 20px; 
+}
+.text-center {
+  margin-top: 50px; 
+}
+
+
+.lingkaran i {
+  position: relative;
+  top: 35px;
+ 
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+/* From Uiverse.io by levxyca */ 
+button {
+  font-size: 1.5rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #fafafa;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}

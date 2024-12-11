@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff - Pegawai Kelurahan</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    rel="stylesheet"
+  />
+  <style>
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      background: linear-gradient(135deg, #4caf50, #2196f3, #9c27b0);
+      padding: 50px 20px;
+      color: #fff;
+      margin-bottom: 30px;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    /* Profile Cards */
+    .profile-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .profile-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .profile-card h4 {
+      margin: 15px 0 5px;
+      color: #34495e;
+    }
+    .profile-card p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    /* Profile Images */
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border: 3px solid #f1f1f1;
+      margin-bottom: 10px;
+      transition: border 0.3s ease;
+    }
+    .profile-card:hover .profile-img {
+      border: 3px solid #2196f3;
+    }
+
+    /* Buttons */
+    .btn-secondary {
+      margin: 30px auto 0;
+      display: inline-block;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: bold;
+      background: #2196f3;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .btn-secondary:hover {
+      background: #1e88e5;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .profile-img {
+        width: 80px;
+        height: 80px;
+      }
+      .profile-card h4 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+     <!-- tim -->
+     <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Pegawai Kelurahan</h2>
+        <div class="row pt-4 gx-4 gy-4">
+    
+          <!-- Lurah -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Lurah</h4>
+            <p>GETRUIDA ISABELA</p>
+            <p>19681006 200212 2 003</p>
+          </div>
+    
+          <!-- Sekretaris Lurah -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Sekretaris Lurah</h4>
+            <p>DAMARIS ROHI RIWU</p>
+            <p>19660212 199102 2 004</p>
+          </div>
+    
+          <!-- Kasie PelMas -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Kasie PelMas</h4>
+            <p>EFI CORNALIA PANDIE, SH</p>
+            <p>19680911 199309 2 001</p>
+          </div>
+    
+          <!-- Kasie Pem & Tantrib -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Kasie Pem & Tantrib</h4>
+            <p>JEROSEN BIRE DOKO, SE</p>
+            <p>19821114 201001 1 024</p>
+          </div>
+    
+          <!-- Kasie PMK -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Kasie PMK</h4>
+            <p>DEBY SUSANTY HOTAN, S.Sos</p>
+            <p>19830704 201001 2 016</p>
+          </div>
+    
+          <!-- Penelaah Teknis Kebijakan 1 -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Penelaah Teknis Kebijakan</h4>
+            <p>DECE NEDJA BAWA, SE</p>
+            <p>19751219 201408 2 004</p>
+          </div>
+    
+          <!-- Penelaah Teknis Kebijakan 2 -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Penelaah Teknis Kebijakan</h4>
+            <p>ROBERTUS LIBER, S.Pd</p>
+            <p>19680514 201408 1 002</p>
+          </div>
+    
+          <!-- Pengadministrasi Perkantoran -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>ELISABETH ADU</p>
+            <p>19711230 200012 2 001</p>
+          </div>
+    
+          <!-- Staff Members -->
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>FRANSISKA APLONIA RADJA</p>
+            <p>7120198502141641</p>
+          </div>
+    
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>EDITH DERDANALIA RIA</p>
+            <p>7120197409291413</p>
+          </div>
+          
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>PAULUS TULIE</p>
+            <p>712019771005164</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>STEVEN SOLAIMAN</p>
+            <p>7120198509141646</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>MARDEKAWATI DELIANA WATTILEO</p>
+            <p>7120198508171640</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>NOVITA HELENA J. DAE, SE</p>
+            <p>7120197911040259</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>OTNIEL ZACHARIAS</p>
+            <p>7120197210121645</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>SIMSON STEPHEN HELI</p>
+            <p>7120198409132189</p>
+          </div>
+
+          <div class="col-md-4 text-center tim">
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="rounded-circle mb-3 profile-img" />
+            <h4>Pengadministrasi Perkantoran</h4>
+            <p>ALEXANDRA W.E. FANGGIDAE</p>
+            <p>7120199605292190</p>
+          </div> 
+          <a href="index.html" class="btn btn-secondary">Kembali ke Beranda</a>   
+        </div>
+      </div>
+    </div> 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+  
+       

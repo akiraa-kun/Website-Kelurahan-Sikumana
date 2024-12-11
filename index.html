@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelurahan Sikumana</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+  class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+  style="background: linear-gradient(45deg, #4e54c8, #8f94fb);"
+>
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      Kelurahan Sikumana
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarText"
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-right" id="navbarText">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="#layanan"
+            style="transition: 0.3s; position: relative;"
+          >
+            <i class="bi bi-gear-fill me-2"></i>Layanan
+            <span
+              class="hover-line"
+              style="
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: #fff;
+                transform: scaleX(0);
+                transform-origin: center;
+                transition: transform 0.3s;
+              "
+            ></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="#kegiatan"
+            style="transition: 0.3s; position: relative;"
+          >
+            <i class="bi bi-calendar-event-fill me-2"></i>Kegiatan
+            <span class="hover-line"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="tentang.html"
+            style="transition: 0.3s; position: relative;"
+          >
+            <i class="bi bi-info-circle-fill me-2"></i>Tentang
+            <span class="hover-line"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="staff.html"
+            style="transition: 0.3s; position: relative;"
+          >
+            <i class="bi bi-people-fill me-2"></i>Staff
+            <span class="hover-line"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .nav-link:hover {
+    color: #ffeb3b !important;
+  }
+
+  .nav-link:hover .hover-line {
+    transform: scaleX(1);
+  }
+
+  .navbar-brand img {
+    border-radius: 50%;
+  }
+  
+</style>
+
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h3 class="display-1"><b>Selamat Datang di Website Kelurahan Sikumana</b></h3>
+        <h4>Website ini dibuat dengan tujuan memberikan informasi bagi masyarakat mengenai Kelurahan Sikumana dan mempermudah pengguna untuk mencari informasi terkait Sarana Prasarana di wilayah Sikumana dalam website ini.</h4>
+        <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">
+            Cek Layanan
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+<h2 class="display-3" id="layanan">Layanan</h2>
+<p>
+  Kelurahan menyediakan berbagai layanan di antaranya:
+</p>
+<div class="row pt-4">
+  <div class="col-md-4">
+    <span class="lingkaran"><i class="fas fa-file fa-5x"></i></span>
+    <h3 class="mt-3">Administrasi</h3>
+    <p>
+      Kependudukan, Surat keterangan kelahiran, kematian, perkawinan, perceraian, penerbitan surat pengantar KTP elektronik, KK, Surat keterangan pindah domisili, DLL.
+    </p>
+    <a href="layanan-administrasi.html" class="btn btn-primary mt-2">Selengkapnya</a>
+  </div>
+
+  <div class="col-md-4">
+    <span class="lingkaran"><i class="fas fa-book fa-5x"></i></span>
+    <h3 class="mt-3">Pencatatan dan Statistik</h3>
+    <p>
+      Pengumpulan data penduduk, pendataan masyarakat untuk keperluan program pemerintah, DLL.
+    </p>
+    <a href="layanan-statistik.html" class="btn btn-primary mt-2">Selengkapnya</a>
+  </div>
+
+  <div class="col-md-4">
+    <span class="lingkaran"><i class="fas fa-hands-helping fa-5x"></i></span>
+    <h3 class="mt-3">Layanan Sosial</h3>
+    <p>
+      Bisa berupa BLT (Bantuan Langsung Tunai), BPNT (Bantuan Pangan Non Tunai), PKH (Program Keluarga Harapan), DLL.
+    </p>
+    <a href="layanan-sosial.html" class="btn btn-primary mt-2">Selengkapnya</a>
+  </div>
+</div>
+
+<div class="container-fluid bg-dark">
+  <!-- Elemen h4 Alur Pelayanan -->
+  <div class="container text-center pt-5 pb-3">
+    <h4 class="display-5 text-warning fw-bold" id="Alur Pelayanan">
+      <i class="fas fa-map-signs me-2"></i>Alur Pelayanan
+    </h4>
+    <p class="text-white-50 fst-italic">
+      Panduan untuk mengurus surat-surat keterangan di Kelurahan Sikumana.
+    </p>
+  </div>
+
+  <!-- Konten Gambar dan Teks -->
+  <div
+    class="container d-flex flex-column flex-lg-row align-items-center justify-content-center text-white gap-4"
+  >
+    <!-- Bagian gambar -->
+    <div class="col-lg-6 col-md-12 text-center">
+      <div class="image-container position-relative">
+        <img
+          src="IMG_alur pelayanan.jpg"
+          class="img-fluid rounded shadow-lg"
+          alt="Alur Pelayanan"
+          style="max-height: 400px; border: 5px solid #ffc107; transition: transform 0.3s; position: relative; top: -30px;"
+        />
+        <div
+          class="image-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-white"
+          style="background: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s;"
+        >
+          <p class="mb-0 fs-5 fw-bold">Klik untuk memperbesar</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bagian teks persyaratan -->
+    <div class="col-lg-6 col-md-12 text-start p-4" style="margin-top: -60px;">
+      <h5 class="text-warning text-center mb-3">
+        <i class="fas fa-list-ul me-2"></i>Persyaratan Wajib Membuat Surat-Surat Keterangan
+      </h5>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-transparent text-white d-flex align-items-start">
+          <i class="fas fa-check-circle text-success me-3"></i> 
+          Surat Pengantar dari RT
+        </li>
+        <li class="list-group-item bg-transparent text-white d-flex align-items-start">
+          <i class="fas fa-check-circle text-success me-3"></i> 
+          Fotocopy Kartu Keluarga
+        </li>
+        <li class="list-group-item bg-transparent text-white d-flex align-items-start">
+          <i class="fas fa-check-circle text-success me-3"></i> 
+          Fotocopy KTP
+        </li>
+        <li class="list-group-item bg-transparent text-white d-flex align-items-start">
+          <i class="fas fa-check-circle text-success me-3"></i> 
+          Fotocopy Surat Pajak Bumi dan Bangunan (PBB) 3 Tahun Terakhir
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Animasi untuk gambar */
+  .image-container:hover img {
+    transform: scale(1.05);
+  }
+
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+
+  /* Warna custom untuk list item */
+  .list-group-item {
+    border: none;
+  }
+  .list-group-item i {
+    font-size: 1.2rem;
+  }
+
+  /* Menyesuaikan posisi teks persyaratan */
+  .col-lg-6.text-start {
+    margin-top: -60px; /* Menggeser teks ke atas lebih jauh untuk sejajar dengan gambar */
+  }
+</style>
+
+
+
+
+<style>
+  /* Animasi untuk gambar */
+  .image-container:hover img {
+    transform: scale(1.05);
+  }
+
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+
+  /* Warna custom untuk list item */
+  .list-group-item {
+    border: none;
+  }
+  .list-group-item i {
+    font-size: 1.2rem;
+  }
+</style>
+
+
+
+    
+    <!-- kegiatan -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="kegiatan">Kegiatan</h2>
+        <p class="lead">
+          Kami menyelenggarakan berbagai kegiatan untuk mendukung kesejahteraan masyarakat di Kelurahan Sikumana. Berikut adalah beberapa kegiatan yang dilakukan di sini.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="bagi beras.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Penyerahan Bantuan</h5>
+                <p class="card-text">
+                  Setelah diverifikasi, petugas menyerahkan bantuan beras kepada warga yang berhak menerima bantuan berdasarkan data dari DTKS (Data Terpadu Kesejahteraan Sosial).
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="pembuatan surat keterangan.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Proses pembuatan Surat Keterangan</h5>
+                <p class="card-text">
+                  Mengajukan permohonan pembuatan surat keterangan dengan menyerahkan dokumen pendukung seperti KTP atau KK, dan mendapatkan surat sesuai kebutuhan.
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="bersih bersih.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Kegiatan Bersih-Bersih</h5>
+                <p class="card-text">
+                  Kegiatan bersih-bersih lingkungan untuk menciptakan kebersihan dan kenyamanan di wilayah Kelurahan Sikumana.
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 4 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="buku tamu.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Proses Administrasi Awal</h5>
+                <p class="card-text">
+                  Mencatat kehadiran membantu kelurahan mengetahui siapa yang datang dan tujuannya, sekaligus mempermudah pencarian data jika diperlukan.
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 5 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="surat tanah.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Rapat Koordinasi</h5>
+                <p class="card-text">
+                  Rapat koordinasi antara sekretariat pps dan pps kelurahan sikumana
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 6 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Rapat.jpg" class="card-img-top" width="200" height="200" />
+              <div class="card-body">
+                <h5 class="card-title">Rapat Pleno</h5>
+                <p class="card-text">
+                  Rapat ini bertujuan untuk membahas, memutuskan, atau mengesahkan kebijakan penting di wilayah kelurahan.
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    
+
+  </body>
+</html>
